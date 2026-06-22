@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/*
+!.streamlit/config.toml
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Large Datasets & Challenge inputs
+\[PUB\] India_runs_data_and_ai_challenge/
+__MACOSX/
+*.jsonl
+*.json
+*.docx
+*.csv
+!sample_submission.csv
+!submission.csv
+
+# Temporary Scratch Files & OS files
+scratch/
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

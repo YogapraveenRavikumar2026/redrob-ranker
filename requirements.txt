@@ -1,0 +1,8 @@
+sentence-transformers==2.7.0
+numpy
+pandas
+python-docx
+tqdm
+pyyaml
+streamlit>=1.32.0
+plotly>=5.0.0
