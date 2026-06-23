@@ -1,17 +1,11 @@
-# Ignore backend Python scripts and CLI files so Vercel doesn't deploy them as Serverless Functions
-app.py
-src/
-rank.py
-validate_and_test.py
-generate_deck.py
-requirements.txt
-packages.txt
-submission.csv
-submission.xlsx
-submission_details.docx
-submission_details.pdf
-redrob_ranker_deck.pptx
-redrob_ranker_deck.pdf
-system_architecture.png
-[PUB] India_runs_data_and_ai_challenge/
-__MACOSX/
+# Ignore everything by default
+*
+
+# Allow the static files and docs directory
+!index.html
+!style.css
+!script.js
+!redrob-poster.png
+!vercel.json
+!docs/
+!docs/**
