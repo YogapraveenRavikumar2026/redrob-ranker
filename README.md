@@ -1,5 +1,7 @@
 # 🏆 Redrob Ranker — AI-Driven Candidate Discovery
 
+🔗 **Live 3D Showcase Website**: [https://yogapraveenravikumar2026.github.io/redrob-ranker/](https://yogapraveenravikumar2026.github.io/redrob-ranker/)
+
 Redrob Ranker is an optimized, multi-axis candidate scoring and ranking pipeline designed to evaluate candidates the way a great recruiter would. Instead of simple, error-prone keyword matching, the ranker performs dense semantic searches on complete profile histories, extracts granular behavioral signals, and detects fraud/honeypots.
 
 ---
