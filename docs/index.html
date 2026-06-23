@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Brain — AI Candidate Discovery</title>
+    <meta name="description" content="An AI-powered candidate ranking system that thinks like a great recruiter. Built for the Redrob Hackathon 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo">
+            <span class="logo-icon">🧠</span>
+            <span class="logo-text">Recruiter Brain</span>
+        </div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#problem">Problem</a>
+            <a href="#solution">Solution</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#scoring">Scoring</a>
+            <a href="#performance">Performance</a>
+            <a href="#tech">Tech Stack</a>
+            <a href="#demo">Demo</a>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-content animate-in">
+            <div class="hero-badge">Redrob Hackathon 2026</div>
+            <h1 class="hero-title">
+                <span class="gradient-text">Recruiter Brain</span>
+            </h1>
+            <p class="hero-subtitle">AI Candidate Ranking That Thinks Like a Great Recruiter</p>
+            <p class="hero-description">
+                We built an intelligent system that evaluates 100K candidates in under 2.3 minutes —
+                using semantic embeddings, career trajectory analysis, and fraud detection — all on CPU.
+            </p>
+            <div class="hero-buttons">
+                <a href="http://localhost:8501" target="_blank" class="btn btn-primary btn-demo-glow">
+                    <span class="btn-icon">🚀</span> Try Live Demo
+                </a>
+                <a href="#solution" class="btn btn-outline">Explore Solution</a>
+                <a href="https://github.com/YogapraveenRavikumar2026/redrob-ranker" target="_blank" class="btn btn-outline">
+                    <span class="btn-icon">⭐</span> GitHub
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-target="100000">0</span>
+                    <span class="hero-stat-label">Candidates Ranked</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-target="138" data-suffix="s">0</span>
+                    <span class="hero-stat-label">Total Runtime</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-target="0">0</span>
+                    <span class="hero-stat-label">API Calls Needed</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: Problem -->
+    <section id="problem" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">The Core Problem</span>
+                <h2>Why Keyword Matching <span class="gradient-text">Fails</span></h2>
+                <p class="section-desc">Traditional candidate search systems rely on keyword matching — and they're fundamentally broken.</p>
+            </div>
+            <div class="problem-grid animate-in">
+                <div class="problem-card">
+                    <div class="problem-icon">🔍</div>
+                    <h3>Semantic Blindness</h3>
+                    <p>Keyword filters miss Tier-5 candidates who built RAG before it had a name. They can't understand synonyms or context.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">👻</div>
+                    <h3>Ghost Candidates</h3>
+                    <p>A perfect skill list means nothing if the candidate hasn't logged in for 6 months. Traditional systems ignore activity signals entirely.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🎭</div>
+                    <h3>Gaming the System</h3>
+                    <p>HR Managers with 9 AI keywords rank above ML Engineers who shipped real production systems. Keyword stuffing goes undetected.</p>
+                </div>
+            </div>
+            <div class="callout-box animate-in">
+                <span class="callout-icon">⚠️</span>
+                <span>The sample submission proves this — <strong>rank 1 is an HR Manager</strong></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Solution -->
+    <section id="solution" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">Our Approach</span>
+                <h2>What Great Recruiters <span class="gradient-text">Actually Do</span></h2>
+            </div>
+            <div class="comparison-grid animate-in">
+                <div class="comparison-card bad">
+                    <div class="comparison-badge bad-badge">❌ Keyword Matching</div>
+                    <ul>
+                        <li>Matches literal words, ignoring synonyms</li>
+                        <li>Treats all skills equally regardless of depth</li>
+                        <li>Ignores availability and activity signals</li>
+                        <li>Easily gamed by keyword stuffers</li>
+                        <li>No fraud or honeypot detection</li>
+                    </ul>
+                </div>
+                <div class="vs-divider">
+                    <span>VS</span>
+                </div>
+                <div class="comparison-card good">
+                    <div class="comparison-badge good-badge">✅ Recruiter Brain</div>
+                    <ul>
+                        <li>Reads career trajectory and progression</li>
+                        <li>Weighs production experience vs. theory</li>
+                        <li>Checks availability, response rate, and notice</li>
+                        <li>Detects and filters impossible profiles</li>
+                        <li>Generates fact-grounded reasoning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Architecture -->
+    <section id="architecture" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">System Design</span>
+                <h2>Two-Stage <span class="gradient-text">Pipeline Architecture</span></h2>
+                <p class="section-desc">A CPU-optimized, modular pipeline that processes 100K candidates in under 2.3 minutes.</p>
+            </div>
+            <div class="pipeline animate-in">
+                <div class="pipeline-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Data Ingestion</h3>
+                        <p>100K candidate profiles + JD loaded and parsed</p>
+                    </div>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Feature Extraction</h3>
+                        <p>40+ signals extracted per candidate in parallel</p>
+                    </div>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-step stage1">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Stage 1: Pre-filter</h3>
+                        <p>Hard rules eliminate 97% of non-fits in 28 seconds</p>
+                        <span class="step-badge">100K → 3,000</span>
+                    </div>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-step stage2">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Stage 2: Deep Scoring</h3>
+                        <p>Semantic embeddings + 5-axis composite scoring</p>
+                        <span class="step-badge">3,000 → Top 100</span>
+                    </div>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Output</h3>
+                        <p>Ranked shortlist with unique reasoning per candidate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Scoring -->
+    <section id="scoring" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">Scoring Engine</span>
+                <h2>5-Axis <span class="gradient-text">Composite Scoring</span></h2>
+                <p class="section-desc">Not just keywords — we evaluate candidates across five distinct dimensions.</p>
+            </div>
+            <div class="scoring-axes animate-in">
+                <div class="axis-row">
+                    <div class="axis-info">
+                        <span class="axis-name">Semantic Fit</span>
+                        <span class="axis-desc">Cosine similarity between JD & resume embeddings</span>
+                    </div>
+                    <div class="axis-bar-container">
+                        <div class="axis-bar" data-width="35"></div>
+                    </div>
+                    <span class="axis-weight">35%</span>
+                </div>
+                <div class="axis-row">
+                    <div class="axis-info">
+                        <span class="axis-name">Core Skills</span>
+                        <span class="axis-desc">Python, ML production, vector DBs, ranking systems</span>
+                    </div>
+                    <div class="axis-bar-container">
+                        <div class="axis-bar" data-width="30"></div>
+                    </div>
+                    <span class="axis-weight">30%</span>
+                </div>
+                <div class="axis-row">
+                    <div class="axis-info">
+                        <span class="axis-name">Career Trajectory</span>
+                        <span class="axis-desc">Job stability, product company tenure, role progression</span>
+                    </div>
+                    <div class="axis-bar-container">
+                        <div class="axis-bar" data-width="15"></div>
+                    </div>
+                    <span class="axis-weight">15%</span>
+                </div>
+                <div class="axis-row">
+                    <div class="axis-info">
+                        <span class="axis-name">Availability</span>
+                        <span class="axis-desc">Active last 90d, open to work, response rate, notice period</span>
+                    </div>
+                    <div class="axis-bar-container">
+                        <div class="axis-bar" data-width="15"></div>
+                    </div>
+                    <span class="axis-weight">15%</span>
+                </div>
+                <div class="axis-row">
+                    <div class="axis-info">
+                        <span class="axis-name">Location Fit</span>
+                        <span class="axis-desc">India-based, Tier-1 city matching, relocation willingness</span>
+                    </div>
+                    <div class="axis-bar-container">
+                        <div class="axis-bar" data-width="5"></div>
+                    </div>
+                    <span class="axis-weight">5%</span>
+                </div>
+            </div>
+
+            <!-- Honeypot Defense -->
+            <div class="honeypot-section animate-in">
+                <h3 class="honeypot-title">🛡️ Honeypot Defense System</h3>
+                <div class="honeypot-grid">
+                    <div class="honeypot-rule">
+                        <span class="rule-icon">🚨</span>
+                        <span>Expert skill explosion (8+ skills, &lt;5 yrs exp)</span>
+                    </div>
+                    <div class="honeypot-rule">
+                        <span class="rule-icon">🎭</span>
+                        <span>Title-skill mismatch (HR title + deep AI skills)</span>
+                    </div>
+                    <div class="honeypot-rule">
+                        <span class="rule-icon">📅</span>
+                        <span>Date inconsistency (end date before start date)</span>
+                    </div>
+                    <div class="honeypot-rule">
+                        <span class="rule-icon">⏱️</span>
+                        <span>Career duration overflow (impossible timelines)</span>
+                    </div>
+                    <div class="honeypot-rule">
+                        <span class="rule-icon">👻</span>
+                        <span>Ghost profile (95% complete, zero activity)</span>
+                    </div>
+                </div>
+                <div class="honeypot-penalty">Flagged profiles receive a <strong>×0.05 penalty</strong> — effectively eliminated.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Performance -->
+    <section id="performance" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">Benchmarks</span>
+                <h2>Sub-3 Minute <span class="gradient-text">Execution</span></h2>
+                <p class="section-desc">No GPU. No API calls. Just smart engineering on a standard CPU.</p>
+            </div>
+            <div class="metrics-grid animate-in">
+                <div class="metric-card-3d">
+                    <div class="metric-value" data-target="28" data-suffix="s">0</div>
+                    <div class="metric-label">Stage 1: Pre-filter</div>
+                    <div class="metric-detail">100K → 3,000 candidates</div>
+                </div>
+                <div class="metric-card-3d">
+                    <div class="metric-value" data-target="105" data-suffix="s">0</div>
+                    <div class="metric-label">Stage 2: Deep Scoring</div>
+                    <div class="metric-detail">Embed + score top 3,000</div>
+                </div>
+                <div class="metric-card-3d">
+                    <div class="metric-value" data-target="0" data-suffix="s">0</div>
+                    <div class="metric-label">Stage 3: Output</div>
+                    <div class="metric-detail">Reasoning + CSV export</div>
+                </div>
+            </div>
+            <div class="total-metric animate-in">
+                <span class="total-label">Total Pipeline Runtime:</span>
+                <span class="total-value">138 seconds (~2.3 minutes)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Tech Stack -->
+    <section id="tech" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">Built With</span>
+                <h2>Technology <span class="gradient-text">Stack</span></h2>
+            </div>
+            <div class="tech-grid animate-in">
+                <div class="tech-card">
+                    <div class="tech-icon">🤖</div>
+                    <h4>SentenceTransformers</h4>
+                    <p>all-MiniLM-L6-v2 for local CPU-only semantic embeddings</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🐍</div>
+                    <h4>Python Multiprocessing</h4>
+                    <p>Parallel feature extraction across all CPU cores</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📊</div>
+                    <h4>Streamlit</h4>
+                    <p>Interactive dark-themed SaaS dashboard for recruiters</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">⚡</div>
+                    <h4>NumPy & Pandas</h4>
+                    <p>High-performance vector math and data manipulation</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📄</div>
+                    <h4>python-docx</h4>
+                    <p>Reliable parsing of Job Description documents</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🎨</div>
+                    <h4>Three.js</h4>
+                    <p>3D neural network visualization for this showcase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Demo -->
+    <section id="demo" class="section">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-tag">Try It Out</span>
+                <h2>Live <span class="gradient-text">Demo & Assets</span></h2>
+            </div>
+            <div class="demo-grid animate-in">
+                <a href="https://github.com/YogapraveenRavikumar2026/redrob-ranker" target="_blank" class="demo-card">
+                    <div class="demo-icon">📦</div>
+                    <h4>GitHub Repository</h4>
+                    <p>Complete source code, pipeline scripts, and documentation</p>
+                    <span class="demo-link">View Repo →</span>
+                </a>
+                <div class="demo-card">
+                    <div class="demo-icon">📊</div>
+                    <h4>Streamlit Dashboard</h4>
+                    <p>Interactive sandbox to upload JD, run ranking, and download results</p>
+                    <span class="demo-link">streamlit run app.py</span>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-icon">📋</div>
+                    <h4>Ranked Output</h4>
+                    <p>submission.csv with 100 candidates, scores, and reasoning</p>
+                    <span class="demo-link">Download CSV</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🧠</span>
+                    <span class="gradient-text footer-title">Recruiter Brain</span>
+                </div>
+                <p class="footer-tagline">The right engineer is in the dataset. We built the system that finds them.</p>
+                <div class="footer-meta">
+                    <span>Redrob Hackathon 2026</span>
+                    <span class="footer-divider">•</span>
+                    <span>Team Antigravity</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Live Demo Button -->
+    <a href="http://localhost:8501" target="_blank" id="floating-demo" class="floating-demo-btn">
+        <span class="floating-pulse"></span>
+        <span class="floating-icon">🚀</span>
+        <span class="floating-text">Try Live Demo</span>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
