@@ -1,3 +1,12 @@
+import os
+# Disable file watcher to prevent PyTorch classes reflection crashes
+os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
+try:
+    import torch
+    torch.classes.__path__ = []
+except ImportError:
+    pass
+
 import streamlit as st
 import time
 import json

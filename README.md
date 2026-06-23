@@ -22,6 +22,10 @@ Redrob Ranker is an optimized, multi-axis candidate scoring and ranking pipeline
 ## 📁 Repository Structure
 
 ```text
+├── docs/                     # 3D Showcase Website (GitHub Pages)
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 ├── src/
 │   ├── jd_parser.py          # Extracts requirements, filters, and signals from JDs
 │   ├── feature_extractor.py  # Parallel extraction of candidate work history, skills, and activity
@@ -31,7 +35,7 @@ Redrob Ranker is an optimized, multi-axis candidate scoring and ranking pipeline
 │   ├── output_writer.py      # Standardizes validation and exports final submission CSV
 │   └── loader.py             # Data loading utilities
 ├── .streamlit/
-│   └── config.toml           # Streamlit theme configuration (Dark Navy & Teal)
+│   └── config.toml           # Streamlit theme configuration
 ├── app.py                    # Streamlit SaaS dashboard sandbox
 ├── rank.py                   # Main CLI entry point for executing the batch pipeline
 ├── validate_and_test.py      # Integration testing and verification script
@@ -45,7 +49,7 @@ Redrob Ranker is an optimized, multi-axis candidate scoring and ranking pipeline
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/YogapraveenRavikumar2026/redrob-ranker.git
    cd redrob-ranker
    ```
 
