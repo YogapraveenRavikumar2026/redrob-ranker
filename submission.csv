@@ -1,101 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0046525,1,0.615,6yr Senior Machine Learning Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0081852,2,0.6125,5yr Senior Data Scientist with production embedding/retrieval systems; 30d notice.
-CAND_0045250,3,0.6019,6yr Applied ML Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0052328,4,0.6009,6yr Recommendation Systems Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0080766,5,0.5971,8yr Staff Machine Learning Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0041610,6,0.5873,6yr Recommendation Systems Engineer with production embedding/retrieval systems; 30d notice [CAND_0041610].
-CAND_0095528,7,0.5864,5yr Senior Data Scientist with production embedding/retrieval systems; 30d notice [CAND_0095528].
-CAND_0098846,8,0.5834,7yr AI Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0081086,9,0.5831,5yr AI Specialist with production embedding/retrieval systems; low recent activity (flag).
-CAND_0065195,10,0.58,5yr Search Engineer with production embedding/retrieval systems; 30d notice.
-CAND_0068811,11,0.578,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
-CAND_0027691,12,0.5774,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
-CAND_0046924,13,0.577,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0046924].
-CAND_0086022,14,0.5767,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
-CAND_0027801,15,0.5746,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0027801].
-CAND_0067866,16,0.5738,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0067866].
-CAND_0099401,17,0.5714,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0099401].
-CAND_0074735,18,0.5712,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0074735].
-CAND_0005649,19,0.5701,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0005649].
-CAND_0005260,20,0.5684,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0005260].
-CAND_0044883,21,0.5676,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0044883].
-CAND_0082973,22,0.5639,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0082973].
-CAND_0089947,23,0.5627,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0089947].
-CAND_0081053,24,0.5615,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0081053].
-CAND_0015528,25,0.5602,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0015528].
-CAND_0038368,26,0.5588,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0038368].
-CAND_0011687,27,0.5586,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0011687].
-CAND_0066999,28,0.5585,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0066999].
-CAND_0049896,29,0.5563,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0049896].
-CAND_0047721,30,0.5561,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0047721].
-CAND_0006557,31,0.5557,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience.
-CAND_0081846,32,0.5542,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0081846].
-CAND_0087630,33,0.5534,Partial fit — embedding systems understanding; concern: inactive >90 days.
-CAND_0075249,34,0.5533,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0075249].
-CAND_0088025,35,0.5524,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0088025].
-CAND_0094728,36,0.5511,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0094728].
-CAND_0031593,37,0.5509,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0031593].
-CAND_0011125,38,0.5499,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0011125].
-CAND_0010283,39,0.5495,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0010283].
-CAND_0058575,40,0.5493,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0058575].
-CAND_0018499,41,0.5485,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0018499].
-CAND_0052682,42,0.5478,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0052682].
-CAND_0079387,43,0.5464,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0079387].
-CAND_0041669,44,0.5463,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0041669].
-CAND_0040117,45,0.5459,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0040117].
-CAND_0046064,46,0.545,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0046064].
-CAND_0064904,47,0.545,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0064904].
-CAND_0073007,48,0.544,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0073007].
-CAND_0096142,49,0.544,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0096142].
-CAND_0030348,50,0.5434,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0030348].
-CAND_0058688,51,0.5434,Partial fit — embedding systems understanding; concern: based outside India.
-CAND_0091909,52,0.5434,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0091909].
-CAND_0029971,53,0.5431,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0029971].
-CAND_0077337,54,0.5431,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0077337].
-CAND_0061265,55,0.5425,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0061265].
-CAND_0055992,56,0.5422,Partial fit — embedding systems understanding; concern: based outside India [CAND_0055992].
-CAND_0010685,57,0.5408,Partial fit — embedding systems understanding; concern: inactive >90 days [CAND_0010685].
-CAND_0009024,58,0.5405,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0009024].
-CAND_0057563,59,0.5399,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0057563].
-CAND_0070202,60,0.5398,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0070202].
-CAND_0010257,61,0.5394,Adjacent skills only — 6 relevant skills; low overall fit to requirements.
-CAND_0006418,62,0.539,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0006418].
-CAND_0044855,63,0.539,Adjacent skills only — 7 relevant skills; low overall fit to requirements.
-CAND_0031397,64,0.5387,Adjacent skills only — 3 relevant skills; low overall fit to requirements.
-CAND_0094056,65,0.5379,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0094056].
-CAND_0011787,66,0.5376,Adjacent skills only — 5 relevant skills; low overall fit to requirements.
-CAND_0079064,67,0.5376,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0079064].
-CAND_0086151,68,0.5371,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0086151].
-CAND_0096172,69,0.5368,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0096172].
-CAND_0016163,70,0.5363,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0016163].
-CAND_0076251,71,0.5346,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0076251].
-CAND_0085851,72,0.5346,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0085851].
-CAND_0009691,73,0.5334,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0009691].
-CAND_0053934,74,0.5329,Adjacent skills only — 4 relevant skills; low overall fit to requirements.
-CAND_0037566,75,0.5324,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0037566].
-CAND_0060835,76,0.5321,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0060835].
-CAND_0024466,77,0.5308,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0024466].
-CAND_0073620,78,0.5302,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0073620].
-CAND_0075439,79,0.529,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0075439].
-CAND_0001056,80,0.5288,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0001056].
-CAND_0092712,81,0.528,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0092712].
-CAND_0023093,82,0.5278,Adjacent skills only — 2 relevant skills; low overall fit to requirements.
-CAND_0093547,83,0.5272,Adjacent skills only — 8 relevant skills; low overall fit to requirements.
-CAND_0013393,84,0.5265,Adjacent skills only — 8 relevant skills; low overall fit to requirements [CAND_0013393].
-CAND_0066179,85,0.526,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0066179].
-CAND_0042029,86,0.5259,Adjacent skills only — 8 relevant skills; low overall fit to requirements [CAND_0042029].
-CAND_0030953,87,0.5254,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0030953].
-CAND_0032179,88,0.5252,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0032179].
-CAND_0066376,89,0.5252,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0066376].
-CAND_0088049,90,0.5252,Adjacent skills only — 2 relevant skills; low overall fit to requirements [CAND_0088049].
-CAND_0030031,91,0.5242,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0030031].
-CAND_0011162,92,0.5229,Adjacent skills only — 9 relevant skills; low overall fit to requirements.
-CAND_0089552,93,0.5229,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0089552].
-CAND_0071939,94,0.5226,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0071939].
-CAND_0008425,95,0.5225,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0008425].
-CAND_0098454,96,0.5218,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0098454].
-CAND_0060054,97,0.5217,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0060054].
-CAND_0039754,98,0.5215,Adjacent skills only — 9 relevant skills; low overall fit to requirements [CAND_0039754].
-CAND_0081480,99,0.5215,Adjacent skills only — 2 relevant skills; low overall fit to requirements [CAND_0081480].
-CAND_0012957,100,0.5211,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0012957].
+CAND_0052328,1,0.7509,6yr Recommendation Systems Engineer with production embedding/retrieval systems; available immediately.
+CAND_0046525,2,0.74,6yr Senior Machine Learning Engineer with production embedding/retrieval systems; 60d notice.
+CAND_0065195,3,0.73,5yr Search Engineer with production embedding/retrieval systems; 45d notice.
+CAND_0027691,4,0.7274,6yr NLP Engineer with production embedding/retrieval systems; available immediately.
+CAND_0098846,5,0.724,7yr AI Engineer with production embedding/retrieval systems; 45d notice.
+CAND_0086022,6,0.7128,5yr Senior Applied Scientist with production embedding/retrieval systems; available immediately.
+CAND_0081852,7,0.7123,5yr Senior Data Scientist with production embedding/retrieval systems; 45d notice.
+CAND_0067866,8,0.7113,6yr Senior Software Engineer (ML) with production embedding/retrieval systems; 45d notice.
+CAND_0011687,9,0.7086,7yr Senior NLP Engineer with production embedding/retrieval systems; available immediately.
+CAND_0066999,10,0.7085,5yr Recommendation Systems Engineer with production embedding/retrieval systems; available immediately.
+CAND_0045250,11,0.7069,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
+CAND_0041610,12,0.7043,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0041610].
+CAND_0081846,13,0.7042,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0081846].
+CAND_0080766,14,0.701,8yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
+CAND_0095528,15,0.6998,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
+CAND_0018499,16,0.6985,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory.
+CAND_0052682,17,0.6978,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0052682].
+CAND_0079387,18,0.6964,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0079387].
+CAND_0046064,19,0.695,8yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0046064].
+CAND_0058688,20,0.6934,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0058688].
+CAND_0075249,21,0.6908,6yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0075249].
+CAND_0041669,22,0.6838,7yr applied ML background; strong embeddings and vector DB match; noted short tenure history.
+CAND_0073007,23,0.6815,5yr applied ML background; strong embeddings and vector DB match; notice period 60d.
+CAND_0074735,24,0.6812,5yr applied ML background; strong embeddings and vector DB match; notice period 90d.
+CAND_0077337,25,0.6806,6yr applied ML background; strong embeddings and vector DB match; notice period 60d.
+CAND_0055992,26,0.6797,6yr applied ML background; strong embeddings and vector DB match; notice period 60d [CAND_0055992].
+CAND_0068811,27,0.6725,7yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0068811].
+CAND_0039754,28,0.6715,8yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0039754].
+CAND_0081053,29,0.6715,5yr applied ML background; strong embeddings and vector DB match; notice period 90d [CAND_0081053].
+CAND_0029971,30,0.669,5yr applied ML background; strong embeddings and vector DB match; solid career trajectory [CAND_0029971].
+CAND_0005649,31,0.6641,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience.
+CAND_0006418,32,0.664,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0006418].
+CAND_0037160,33,0.6639,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0037160].
+CAND_0088025,34,0.6624,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0088025].
+CAND_0081480,35,0.659,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience.
+CAND_0014063,36,0.6564,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0014063].
+CAND_0037566,37,0.6561,Partial fit — embedding systems understanding; concern: no production ML deployment found.
+CAND_0005260,38,0.6559,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0005260].
+CAND_0027801,39,0.6551,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0027801].
+CAND_0058575,40,0.6493,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0058575].
+CAND_0030348,41,0.6492,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0030348].
+CAND_0064326,42,0.6483,Partial fit — embedding systems understanding; concern: no production ML deployment found [CAND_0064326].
+CAND_0098454,43,0.6468,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0098454].
+CAND_0002025,44,0.6467,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0002025].
+CAND_0064888,45,0.6466,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0064888].
+CAND_0044883,46,0.6446,Partial fit — embedding systems understanding; concern: based outside India.
+CAND_0009024,47,0.644,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0009024].
+CAND_0015528,48,0.6436,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0015528].
+CAND_0018549,49,0.642,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0018549].
+CAND_0043860,50,0.6408,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0043860].
+CAND_0072688,51,0.6386,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0072688].
+CAND_0061257,52,0.638,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0061257].
+CAND_0092839,53,0.6378,Partial fit — embedding systems understanding; concern: no production ML deployment found [CAND_0092839].
+CAND_0048558,54,0.6365,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0048558].
+CAND_0054394,55,0.6349,Partial fit — embedding systems understanding; concern: no production ML deployment found [CAND_0054394].
+CAND_0017960,56,0.6348,Partial fit — embedding systems understanding; concern: no production ML deployment found [CAND_0017960].
+CAND_0082973,57,0.6348,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0082973].
+CAND_0094728,58,0.6343,Partial fit — embedding systems understanding; concern: limited retrieval/ranking experience [CAND_0094728].
+CAND_0014440,59,0.6325,Partial fit — basic AI/ML skills; concern: limited retrieval/ranking experience [CAND_0014440].
+CAND_0042029,60,0.6317,Partial fit — embedding systems understanding; concern: no production ML deployment found [CAND_0042029].
+CAND_0076251,61,0.6302,Adjacent skills only — 3 relevant skills; low overall fit to requirements.
+CAND_0030031,62,0.6292,Adjacent skills only — 6 relevant skills; low overall fit to requirements.
+CAND_0019880,63,0.6279,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0019880].
+CAND_0020350,64,0.6279,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0020350].
+CAND_0077498,65,0.6279,Adjacent skills only — 4 relevant skills; low overall fit to requirements.
+CAND_0052335,66,0.6278,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0052335].
+CAND_0071974,67,0.6277,Adjacent skills only — 7 relevant skills; low overall fit to requirements.
+CAND_0057563,68,0.6274,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0057563].
+CAND_0006557,69,0.6266,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0006557].
+CAND_0096142,70,0.6265,Adjacent skills only — 5 relevant skills; low overall fit to requirements.
+CAND_0078492,71,0.6252,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0078492].
+CAND_0046924,72,0.625,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0046924].
+CAND_0061265,73,0.625,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0061265].
+CAND_0089947,74,0.6247,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0089947].
+CAND_0091534,75,0.6245,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0091534].
+CAND_0051292,76,0.6243,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0051292].
+CAND_0068351,77,0.6239,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0068351].
+CAND_0011162,78,0.6229,Adjacent skills only — 9 relevant skills; low overall fit to requirements.
+CAND_0050876,79,0.6228,Adjacent skills only — 9 relevant skills; low overall fit to requirements [CAND_0050876].
+CAND_0008295,80,0.6218,Adjacent skills only — 2 relevant skills; low overall fit to requirements.
+CAND_0083879,81,0.6216,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0083879].
+CAND_0008425,82,0.6215,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0008425].
+CAND_0075439,83,0.6211,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0075439].
+CAND_0049896,84,0.6208,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0049896].
+CAND_0077285,85,0.6207,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0077285].
+CAND_0073504,86,0.6204,Adjacent skills only — 2 relevant skills; low overall fit to requirements [CAND_0073504].
+CAND_0073620,87,0.6199,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0073620].
+CAND_0015967,88,0.6198,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0015967].
+CAND_0010603,89,0.6191,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0010603].
+CAND_0016163,90,0.6188,Adjacent skills only — 7 relevant skills; low overall fit to requirements [CAND_0016163].
+CAND_0068932,91,0.6188,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0068932].
+CAND_0004402,92,0.6187,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0004402].
+CAND_0078002,93,0.6183,Adjacent skills only — 8 relevant skills; low overall fit to requirements.
+CAND_0049538,94,0.6173,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0049538].
+CAND_0074486,95,0.6168,Adjacent skills only — 6 relevant skills; low overall fit to requirements [CAND_0074486].
+CAND_0012397,96,0.6164,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0012397].
+CAND_0030953,97,0.6164,Adjacent skills only — 4 relevant skills; low overall fit to requirements [CAND_0030953].
+CAND_0018293,98,0.616,Adjacent skills only — 3 relevant skills; low overall fit to requirements [CAND_0018293].
+CAND_0013665,99,0.6159,Adjacent skills only — 5 relevant skills; low overall fit to requirements [CAND_0013665].
+CAND_0097176,100,0.6156,Adjacent skills only — 2 relevant skills; low overall fit to requirements [CAND_0097176].

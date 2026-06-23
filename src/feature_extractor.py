@@ -407,14 +407,14 @@ def extract_features(candidate: Dict[str, Any]) -> Dict[str, Any]:
         except Exception:
             pass
             
-    open_to_work = bool(signals.get("open_to_work", False))
-    response_rate = float(signals.get("response_rate", 0.0))
-    notice_days = int(signals.get("notice_days", 30))
+    open_to_work = bool(signals.get("open_to_work_flag", signals.get("open_to_work", False)))
+    response_rate = float(signals.get("recruiter_response_rate", signals.get("response_rate", 0.0)))
+    notice_days = int(signals.get("notice_period_days", signals.get("notice_days", 30)))
     willing_to_relocate = bool(signals.get("willing_to_relocate", False))
-    github_score = float(signals.get("github_score", -1.0))
-    profile_completeness = float(signals.get("profile_completeness", 0.0))
+    github_score = float(signals.get("github_activity_score", signals.get("github_score", -1.0)))
+    profile_completeness = float(signals.get("profile_completeness_score", signals.get("profile_completeness", 0.0)))
     interview_completion_rate = float(signals.get("interview_completion_rate", 0.0))
-    applications_30d = int(signals.get("applications_30d", 0))
+    applications_30d = int(signals.get("applications_submitted_30d", signals.get("applications_30d", 0)))
 
     # --- LOCATION FIT ---
     loc_clean = location.strip().lower()
