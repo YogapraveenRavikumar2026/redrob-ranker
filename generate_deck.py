@@ -105,7 +105,7 @@ def main():
     tf_meta.word_wrap = True
     tf_meta.margin_left = tf_meta.margin_top = tf_meta.margin_right = tf_meta.margin_bottom = 0
     p_meta = tf_meta.paragraphs[0]
-    p_meta.text = "Redrob Hackathon 2026 | Team Antigravity"
+    p_meta.text = "Redrob Hackathon 2026 | TheOne"
     p_meta.font.name = 'Segoe UI'
     p_meta.font.size = Pt(14)
     p_meta.font.bold = True
@@ -534,7 +534,7 @@ def main():
     p_f.alignment = PP_ALIGN.CENTER
     
     p_f2 = tf_f.add_paragraph()
-    p_f2.text = "Team Antigravity"
+    p_f2.text = "TheOne"
     p_f2.font.name = 'Segoe UI'
     p_f2.font.size = Pt(14)
     p_f2.font.bold = True
