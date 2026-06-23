@@ -591,26 +591,23 @@ if "results" in st.session_state and "stats" in st.session_state:
         
     # Tab 3 — Pipeline Metrics & Signals Table
     with tab3:
-        # Custom visual cards for metrics
         st.markdown(
-            textwrap.dedent(
-                f"""
-                <div style="display: flex; gap: 20px; margin-bottom: 30px;">
-                    <div class="metric-card" style="flex: 1;">
-                        <div class="metric-val">{stats['total_processed']}</div>
-                        <div class="metric-label">Total Candidates Processed</div>
-                    </div>
-                    <div class="metric-card" style="flex: 1;">
-                        <div class="metric-val">{stats['passed_prefilter']}</div>
-                        <div class="metric-label">Passed Pre-filter (Stage 1)</div>
-                    </div>
-                    <div class="metric-card" style="flex: 1;">
-                        <div class="metric-val">{stats['runtime']:.3f} s</div>
-                        <div class="metric-label">Runtime (Seconds)</div>
-                    </div>
-                </div>
-                """
-            ),
+            f"""
+<div style="display: flex; gap: 20px; margin-bottom: 30px;">
+    <div class="metric-card" style="flex: 1;">
+        <div class="metric-val">{stats['total_processed']}</div>
+        <div class="metric-label">Total Candidates Processed</div>
+    </div>
+    <div class="metric-card" style="flex: 1;">
+        <div class="metric-val">{stats['passed_prefilter']}</div>
+        <div class="metric-label">Passed Pre-filter (Stage 1)</div>
+    </div>
+    <div class="metric-card" style="flex: 1;">
+        <div class="metric-val">{stats['runtime']:.3f} s</div>
+        <div class="metric-label">Runtime (Seconds)</div>
+    </div>
+</div>
+""",
             unsafe_allow_html=True
         )
         
@@ -670,65 +667,57 @@ if "results" in st.session_state and "stats" in st.session_state:
         else:
             pct_otw = pct_active = pct_emb = pct_india = pct_notice = 0.0
             
-        # Draw custom visual card for breakdown of signals with HTML progress bars
         st.markdown(
-            textwrap.dedent(
-                f"""
-                <div class="metric-card" style="text-align: left; max-width: 700px; margin-top: 15px;">
-                    <h4 style="margin-top: 0; color: #FFFFFF; font-weight: 600; font-size: 16px; margin-bottom: 20px;">Top Candidate Characteristics</h4>
-                    
-                    <div class="signal-row">
-                        <div class="signal-header">
-                            <span class="signal-name">open_to_work</span>
-                            <span style="color: #00C9A7;">{pct_otw:.1f}%</span>
-                        </div>
-                        <div class="signal-bar-bg">
-                            <div class="signal-bar-fill" style="width: {pct_otw}%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="signal-row">
-                        <div class="signal-header">
-                            <span class="signal-name">active last 90d</span>
-                            <span style="color: #00C9A7;">{pct_active:.1f}%</span>
-                        </div>
-                        <div class="signal-bar-bg">
-                            <div class="signal-bar-fill" style="width: {pct_active}%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="signal-row">
-                        <div class="signal-header">
-                            <span class="signal-name">has_embeddings_exp</span>
-                            <span style="color: #00C9A7;">{pct_emb:.1f}%</span>
-                        </div>
-                        <div class="signal-bar-bg">
-                            <div class="signal-bar-fill" style="width: {pct_emb}%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="signal-row">
-                        <div class="signal-header">
-                            <span class="signal-name">india_based</span>
-                            <span style="color: #00C9A7;">{pct_india:.1f}%</span>
-                        </div>
-                        <div class="signal-bar-bg">
-                            <div class="signal-bar-fill" style="width: {pct_india}%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="signal-row">
-                        <div class="signal-header">
-                            <span class="signal-name">notice &le; 30d</span>
-                            <span style="color: #00C9A7;">{pct_notice:.1f}%</span>
-                        </div>
-                        <div class="signal-bar-bg">
-                            <div class="signal-bar-fill" style="width: {pct_notice}%;"></div>
-                        </div>
-                    </div>
-                </div>
-                """
-            ),
+            f"""
+<div class="metric-card" style="text-align: left; max-width: 700px; margin-top: 15px;">
+    <h4 style="margin-top: 0; color: #FFFFFF; font-weight: 600; font-size: 16px; margin-bottom: 20px;">Top Candidate Characteristics</h4>
+    <div class="signal-row">
+        <div class="signal-header">
+            <span class="signal-name">open_to_work</span>
+            <span style="color: #00C9A7;">{pct_otw:.1f}%</span>
+        </div>
+        <div class="signal-bar-bg">
+            <div class="signal-bar-fill" style="width: {pct_otw}%;"></div>
+        </div>
+    </div>
+    <div class="signal-row">
+        <div class="signal-header">
+            <span class="signal-name">active last 90d</span>
+            <span style="color: #00C9A7;">{pct_active:.1f}%</span>
+        </div>
+        <div class="signal-bar-bg">
+            <div class="signal-bar-fill" style="width: {pct_active}%;"></div>
+        </div>
+    </div>
+    <div class="signal-row">
+        <div class="signal-header">
+            <span class="signal-name">has_embeddings_exp</span>
+            <span style="color: #00C9A7;">{pct_emb:.1f}%</span>
+        </div>
+        <div class="signal-bar-bg">
+            <div class="signal-bar-fill" style="width: {pct_emb}%;"></div>
+        </div>
+    </div>
+    <div class="signal-row">
+        <div class="signal-header">
+            <span class="signal-name">india_based</span>
+            <span style="color: #00C9A7;">{pct_india:.1f}%</span>
+        </div>
+        <div class="signal-bar-bg">
+            <div class="signal-bar-fill" style="width: {pct_india}%;"></div>
+        </div>
+    </div>
+    <div class="signal-row">
+        <div class="signal-header">
+            <span class="signal-name">notice &le; 30d</span>
+            <span style="color: #00C9A7;">{pct_notice:.1f}%</span>
+        </div>
+        <div class="signal-bar-bg">
+            <div class="signal-bar-fill" style="width: {pct_notice}%;"></div>
+        </div>
+    </div>
+</div>
+""",
             unsafe_allow_html=True
         )
         
